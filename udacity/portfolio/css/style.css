@@ -1,13 +1,91 @@
-@import url('mobile-style.css');
-
 * {
   font-family: 'Open Sans', sans-serif;
 }
 
-.logo, .logo h1 {
+.logo, header h1 {
   display: inline-block;
 }
 
 .logo img {
   width: 25px;
+}
+
+.container {
+  display: flex;
+}
+
+/* NEXUS 5(360x640) */
+@media screen and ( max-width: 360px ){
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background: #fff;
+    padding: 15px 10px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  main {
+    margin-top: 5px;
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 15px;
+  }
+  
+  main p, main h1 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  section {
+    margin-bottom: 15px;
+  }
+  
+  .shadow {
+    box-shadow: 0 2px #ccc;
+  }
+  
+  /* FLEX */
+  .container {
+    flex-direction: column; 
+  }
+  #portfolio {
+    order: 1;
+  }
+  
+  #html5 {
+    order: 2;
+  }
+  
+  #css3 {
+    order: 3;
+  }
+  
+  #htmlcss{
+    order: 4;
+  }
+}
+
+/* IPAD (768x1024) */
+@media screen and ( min-width: 768px ){
+  body {
+    margin: 10px;
+    background: #dfd;
+  }
+}
+
+/* DESKTOP (>=1024) */
+@media screen and ( min-width: 1024px ){
+  body {
+    margin: 10px;
+    background: #fff;
+  }
 }
