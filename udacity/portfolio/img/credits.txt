@@ -1,5 +1,7 @@
 favicon.ico - <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-dev-photo001 - Photo by Florian Olivo on Unsplash - https://unsplash.com/photos/Ek9Znm8lQ1U
-html5.jpg - Photo by Pankaj Patel on Unsplash https://unsplash.com/photos/u2Ru4QBXA5Q
-css.jpg - Photo by Nick Karvounis on Unsplash https://unsplash.com/photos/TkZYCXmrKK4
-htmlcss.jpg - Photo by Greg Rakozy on Unsplash https://unsplash.com/photos/vw3Ahg4x1tY
+item1     - Photo by Florian Olivo on Unsplash - https://unsplash.com/photos/Ek9Znm8lQ1U
+item2.jpg - Photo by Pankaj Patel on Unsplash https://unsplash.com/photos/u2Ru4QBXA5Q
+item3.jpg - Photo by Nick Karvounis on Unsplash https://unsplash.com/photos/TkZYCXmrKK4
+item4.jpg - Photo by Greg Rakozy on Unsplash https://unsplash.com/photos/vw3Ahg4x1tY
+home.jpg  - Image by <a href="https://pixabay.com/users/jamesmarkosborne-1640589/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1076536">James Osborne</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1076536">Pixabay</a>
+about.jpg - Image by <a href="https://pixabay.com/users/UzbekIL-2854934/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1512838">UzbekIL</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1512838">Pixabay</a>
