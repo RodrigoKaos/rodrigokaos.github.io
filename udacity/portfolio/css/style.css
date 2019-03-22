@@ -24,7 +24,7 @@ a {
 }
 
 /* NEXUS 5(360x640) */
-@media screen and ( max-width: 360px ){
+@media screen and ( max-width: 420px ){
   
   * {
     margin: 0;
