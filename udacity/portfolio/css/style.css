@@ -23,8 +23,11 @@ a {
   display: flex;
 }
 
-/* NEXUS 5(360x640) */
-@media screen and ( max-width: 420px ){
+@media screen 
+  and ( min-width: 360px ) /* NEXUS 5 Portrait(360x640) */
+  and ( max-width: 640px ), /* NEXUS 5(360x640) Landscape */
+  screen /* Others */
+  and ( max-width: 767px ){
   
   * {
     margin: 0;
