@@ -134,7 +134,7 @@ a {
 }
 
 /* IPAD (768x1024) */
-@media screen and ( min-width: 768px ){
+@media screen and ( min-width: 768px ) and ( max-width: 1023px ){
 
   header {
     padding: 15px 5px;
@@ -218,8 +218,68 @@ a {
 
 /* DESKTOP (>=1024) */
 @media screen and ( min-width: 1024px ){
-  body {
-    margin: 10px;
-    background: #fff;
+  /* header, nav {
+    padding: 0 50px;
   }
+  
+  
+  main {
+    margin: auto 50px;
+  } */
+
+  body{
+    max-height: 800px;
+    background: #7EB3C7;
+    
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-gap: 10px; */
+    grid-template-areas: 
+      "header main" 
+      "nav    main" 
+      "footer main";
+  }  
+
+  header, nav, main, footer {
+    padding: 10px;
+  }
+  header {
+    grid-area: header;
+  }
+
+  nav {
+    grid-area: nav;
+  }
+
+  .menu li{
+    display: block;
+  }
+
+  main {
+    grid-area: main;
+    
+    background: #F8F8FF;
+    overflow-y: auto;
+    
+  }
+
+  main #home, main #about {
+    height: 100vh;
+  }
+
+  #portfolio .card {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  #portfolio .card, #portfolio .card img {
+    width: 450px;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+
 }
