@@ -217,23 +217,22 @@ a {
 }
 
 /* DESKTOP (>=1024) */
-@media screen and ( min-width: 1024px ){
+@media screen and ( min-width: 1024px ) {
   /* header, nav {
     padding: 0 50px;
   }
-  
-  
+
   main {
     margin: auto 50px;
   } */
 
-  body{
+  body {
     max-height: 800px;
     background: #7EB3C7;
     
     display: grid;
     grid-template-columns: 300px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto 2fr 1fr;
     /* grid-gap: 10px; */
     grid-template-areas: 
       "header main" 
@@ -252,8 +251,16 @@ a {
     grid-area: nav;
   }
 
-  .menu li{
-    display: block;
+  .menu {
+    font-size: 22px;
+  }
+  
+  .menu li {
+    display: block;    
+  }
+
+  .menu li a {
+    border-bottom: 1px solid transparent;    
   }
 
   main {
@@ -266,20 +273,36 @@ a {
 
   main #home, main #about {
     height: 100vh;
+    padding: 5px 0;
   }
 
   #portfolio .card {
     display: inline-block;
-    margin: 10px;
-    padding: 5px;
+    margin: 5px;
     border: 1px solid #ccc;
+    border-radius: 5px;
   }
+
+  .card h2, .card p {
+    padding: 0 5px;
+  }
+
+  .card p {
+    padding-bottom: 5px;
+  }
+
   #portfolio .card, #portfolio .card img {
     width: 450px;
   }
 
   footer {
     grid-area: footer;
+  }
+
+  /* hover */
+  .menu li a:hover {
+    border-color: #000;
+    transition: all ease-in-out 1s;
   }
 
 }
