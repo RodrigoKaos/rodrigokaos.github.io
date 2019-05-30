@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg enable-background="new 0 0 32 32" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-		<path d="M30,12V8h-5.004l1-8h-4l-1,8h-7.998l1-8h-4l-1,8H2v4h6.498L7.5,20H2v4h5l-1,8h4l1-8h8l-1.002,8H22    l1-8h7v-4h-6.5l0.996-8H30z M19.5,20h-8l0.998-8h7.998L19.5,20z" fill="#030104"/>
+<svg width="270" height="40" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="42" width="272" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" fill="#030104" d="m34.743416,16.743416l0,-4l-5.004,0l1,-8l-4,0l-1,8l-7.998,0l1,-8l-4,0l-1,8l-6.998,0l0,4l6.498,0l-0.998,8l-5.5,0l0,4l5,0l-1,8l4,0l1,-8l8,0l-1.002,8l4.002,0l1,-8l7,0l0,-4l-6.5,0l0.996,-8l5.504,0zm-10.5,8l-8,0l0.998,-8l7.998,0l-0.996,8z"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Open Sans, sans-serif" font-size="32" id="svg_2" y="30.5" x="42" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#000000">Rodrigo Anjos</text>
+ </g>
 </svg>
