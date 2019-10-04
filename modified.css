@@ -1,0 +1,24 @@
+:root {
+  --bg-color2: #f2efea;
+  --bg-color3: #ecf0f1;
+  --bg-color4: #fffafa; 
+}
+
+#profile, 
+#username a, 
+#about a {
+  background: var(--bg-color4);
+  color: #000 !important;
+}
+
+#profile {
+  align-items: center;
+}
+
+#profile div {
+  border-radius: 90px;
+}
+
+#about span i {
+  font-size: 22px;
+}
