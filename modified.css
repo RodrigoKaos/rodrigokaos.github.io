@@ -1,14 +1,8 @@
-:root {
-  --bg-color2: #f2efea;
-  --bg-color3: #ecf0f1;
-  --bg-color4: #fffafa; 
-}
-
 #profile, 
 #username a, 
 #about a {
-  background: var(--bg-color4);
-  color: #000 !important;
+  background: #fffafa;
+  color: #000000 !important;
 }
 
 #profile {
@@ -21,4 +15,24 @@
 
 #about span i {
   font-size: 22px;
+  transition: ease-in-out .5s;
+}
+
+#userbio {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.socials span:first-of-type {
+  margin-left: 2vw !important;
+}
+
+.socials > i:hover {
+  color: #CCC;
+  transition: ease-in-out 1s;
+}
+
+#profile:hover {
+  background: #fff 200px 200px;
 }
